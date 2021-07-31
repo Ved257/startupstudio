@@ -1,0 +1,110 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  
+  .Container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 500px;
+    height: 300px;
+    /* background: #f1f1f1; */
+    margin: 100px auto 0;
+    word-break: break-all;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+  }
+  
+  .bloc-tabs {
+    display: flex;
+  }
+  .tabs {
+  
+    padding: 15px;
+    text-align: center;
+    display:flexbox;
+    width: 50%;
+    background: rgba(128, 128, 128, 0.075);
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+  }
+  .tabs:not(:last-child){
+    border-right: 1px solid rgba(0, 0, 0, 0.274);
+  }
+  
+  .active-tabs  {
+    background: rgb(54, 54, 54);
+    border-bottom: 1px solid transparent;
+    color: #f1f1f1;
+  }
+  
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
+    background: rgb(54, 54, 54);
+  }
+  
+  
+  
+  button {
+    border: none;
+    
+  }
+  .content-tabs {
+    flex-grow : 1;
+  }
+  .content {
+    background: rgb(54, 54, 54);
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #f1f1f1;
+  }
+  .content h2 {
+    padding: 0px 0 5px 0px;
+  }
+  .content hr {
+    width: 100px;
+    height: 2px;
+    background: #222;
+    margin-bottom: 5px;
+  }
+  .content p {
+    width: 100%;
+    height: 100%;
+  }
+  .active-content {
+    display: block;
+  }
+  .button_slide {
+    color: #000000;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #414141;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+  .Slide:hover {
+  box-shadow: inset 400px 0 0 0 #ffffff;
+  border-color: #ffffff;
+  color: #000000;
+}
