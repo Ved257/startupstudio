@@ -7,7 +7,7 @@ export default function Insights() {
         <div>
             <Container>
                 <Row>
-                <Col style={{position:"absolute",top:"-20%", fontFamily:"sans-serif"}}>
+                <Col style={{position:"absolute",top:"-7%", fontFamily:"sans-serif"}}>
                     <Jumbotron >
                         <h1 className="display-3">
                             Insights

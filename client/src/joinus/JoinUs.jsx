@@ -8,7 +8,7 @@ export default function JoinUs() {
             <Container>
             <Row>
                 <Col>
-                <Jumbotron style={{position:"absolute", top:"140%", textAlign:"center", fontFamily:"sans-serif",width:"190vh"}}>
+                <Jumbotron style={{position:"absolute", top:"145%", textAlign:"center", fontFamily:"sans-serif",width:"190vh"}}>
                 <h1 className="display-4">Join Our Community</h1>
                 <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
                 <hr className="mx-0" />

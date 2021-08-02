@@ -59,7 +59,7 @@ export default function AreYou() {
                                 </button>
                             </div>
 
-                            <div className="content-tabs">
+                            <div className="content-tabs" onTransition="fade">
                                 <div
                                 className={toggleState === 1 ? "content  active-content" : "content"}
                                 >
@@ -68,7 +68,7 @@ export default function AreYou() {
                                 <Container>
                                     <Row>
                                         <Col>
-                                        <p>
+                                        <p className="c1">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sed
                                             nostrum rerum laudantium totam unde adipisci incidunt modi alias!
                                             Accusamus in quia odit aspernatur provident et ad vel distinctio
@@ -104,7 +104,7 @@ export default function AreYou() {
                                         </p>
                                         </Col>
                                         <Col style={{textAlign:"center"}}>
-                                        <div class="button_slide slide1_right">Build your startup with us</div>
+                                        <div class="button_slide slide_right">Build your startup with us</div>
                                         </Col>
                                     </Row>
                                     </Container>

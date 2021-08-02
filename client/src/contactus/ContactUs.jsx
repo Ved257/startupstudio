@@ -92,7 +92,7 @@ export default function JoinForm() {
           <br/>
           <br/>
           <br/>
-          <div className="button1_slide slide_right" style={{textAlign:"center"}}>Join us</div>
+          <div className="button1_slide slide_right" style={{textAlign:"center", position:"relative", top:"1%"}}>Join us</div>
           <br/>
           <br/>
           <br/>

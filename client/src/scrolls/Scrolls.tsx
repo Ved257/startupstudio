@@ -15,7 +15,7 @@ export default class Anim1 extends Component {
     render() {
         return (
             <div>
-                <Parallax pages={4.65} style={{ top: '0', left: '0' }}>
+                <Parallax pages={4.6} style={{ top: '0', left: '0' }}>
                 <ParallaxLayer
                     offset={0}
                     speed={0.95}

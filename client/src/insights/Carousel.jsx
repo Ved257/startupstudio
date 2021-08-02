@@ -3,7 +3,7 @@ import { Carousel, Card } from 'react-bootstrap'
 
 export default function Insights() {
     return (
-        <div style={{position:"absolute", top:"-10%", width:"190vh"}}>
+        <div style={{position:"absolute", top:"-7%", width:"190vh"}}>
             <span aria-hidden="true" className="carousel-control-next-icon" />
             <Carousel variant="dark" slide="false" indicators="false" nextLabel="" prevLabel="" style={{height:"100%", width:"100%"}}>
                 <Carousel.Item>

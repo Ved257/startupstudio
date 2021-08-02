@@ -4,6 +4,13 @@
     max-width: 100%;
     margin: 60px auto;
   }
+  .card:hover{
+    transform: scale(1.05);
+    transition: 500ms ease-in;
+    transition: 500ms ease-out;
+    
+  }
+
 .shadow1 { 
     box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
   }
